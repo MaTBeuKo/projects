@@ -1,10 +1,10 @@
  ## Preview
  
 Filters the picture based on it's histogram using  [Otsu's method](https://en.wikipedia.org/wiki/Otsu%27s_method) according to the following mapping:
-[0; f~1~) -> 0 
-[f~1~; f~2~) -> 84
-[f~2~; f~3~) -> 170
-[f~3~; 255] -> 255
+[0; f1) -> 0 
+[f1; f2) -> 84
+[f2; f3) -> 170
+[f3; 255] -> 255
 
  ## Usage
 
