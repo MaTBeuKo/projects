@@ -1,15 +1,12 @@
 import java.util.*;
 
-public class H {
-    private static final int N = 1000000;
+public class Main {
+    static final int N = 1000000;
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int[] a = new int[N + 5];
-        int[] prefix = new int[N + 5];
-        int[] ind = new int[N + 5];
-        int[] d = new int[N + 5];
+        int[] a = new int[N + 5], prefix = new int[N + 5], ind = new int[N + 5], d = new int[N + 5];
         int mx = 0;
         for (int i = 1; i <= n; i++) {
             a[i] = in.nextInt();
